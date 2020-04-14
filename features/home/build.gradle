@@ -1,6 +1,8 @@
 apply from: '../../android_feature_dependencies.gradle'
 apply plugin: 'kotlin-kapt'
 apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     dataBinding {
@@ -9,4 +11,8 @@ android {
     testOptions {
         animationsDisabled = true
     }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:+'
 }
