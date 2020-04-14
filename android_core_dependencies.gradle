@@ -1,0 +1,21 @@
+/**
+ * Shared dependencies between modules
+ */
+dependencies {
+
+    def dependencies = rootProject.ext.dependencies
+
+    // KOTLIN
+    implementation dependencies.kotlin
+    implementation dependencies.coroutines
+    implementation dependencies.coroutinesAndroid
+    // ANDROID
+    implementation dependencies.appCompat
+    implementation dependencies.coreKtx
+    implementation dependencies.constraintLayout
+    implementation dependencies.lifecycle
+    implementation dependencies.lifecycleViewModel
+    implementation dependencies.recyclerView
+    implementation dependencies.navigation
+    implementation dependencies.navigationFrag
+}
