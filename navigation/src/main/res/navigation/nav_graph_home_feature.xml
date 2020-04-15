@@ -4,8 +4,16 @@
     android:id="@+id/nav_graph_home_feature"
     app:startDestination="@id/homeFragment">
 
-    <fragment android:id="@+id/homeFragment"
+    <fragment
+        android:id="@+id/homeFragment"
         android:name="com.br.home.HomeFragment"
-        android:label="VendasMobi"/>
+        android:label="iMobi">
 
+        <action
+            android:id="@+id/action_homeFragment_to_addImmobileFragment"
+            app:destination="@id/nav_graph_add_immobile_feature" />
+
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_add_immobile_feature" />
 </navigation>

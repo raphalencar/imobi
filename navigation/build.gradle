@@ -1,9 +1,13 @@
 apply plugin: 'com.android.library'
 apply from: '../android_commons.gradle'
+apply plugin: "androidx.navigation.safeargs.kotlin"
 
 dependencies {
     def dependencies = rootProject.ext.dependencies
 
     implementation dependencies.navigation
     implementation dependencies.navigationFrag
+    testImplementation dependencies.junit
+    androidTestImplementation dependencies.androidJunit
+    androidTestImplementation dependencies.espressoCore
 }

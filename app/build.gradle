@@ -22,6 +22,7 @@ dependencies {
     implementation project(":data:remote")
     implementation project(":data:repository")
     implementation project(":features:home")
+    implementation project(":features:immobile")
 
     implementation dependencies.koin
     implementation dependencies.koinViewModel

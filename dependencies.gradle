@@ -42,6 +42,13 @@ ext {
     // Navigation
     navigationVersion = '2.2.1'
 
+    // JUnit
+    junitVersion = '4.12'
+    androidTestJunit = '1.1.1'
+
+    // Espresso
+    espressoVersion = '3.2.0'
+
     dependencies = [
             kotlin                : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion",
             coreKtx               : "androidx.core:core-ktx:$coreKtxVersion",
@@ -61,5 +68,8 @@ ext {
             recyclerView          : "androidx.recyclerview:recyclerview:$recyclerViewVersion",
             navigation            : "androidx.navigation:navigation-ui-ktx:$navigationVersion",
             navigationFrag        : "androidx.navigation:navigation-fragment-ktx:$navigationVersion",
+            junit                 : "junit:junit:$junitVersion",
+            androidJunit          : "androidx.test.ext:junit:$androidTestJunit",
+            espressoCore          : "androidx.test.espresso:espresso-core:$espressoVersion"
     ]
 }
