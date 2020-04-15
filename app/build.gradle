@@ -28,4 +28,5 @@ dependencies {
     implementation dependencies.appCompat
     implementation dependencies.navigation
     implementation dependencies.navigationFrag
+    implementation dependencies.constraintLayout
 }

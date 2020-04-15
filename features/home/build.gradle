@@ -14,5 +14,5 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.legacy:legacy-support-v4:+'
+    implementation project(":common")
 }

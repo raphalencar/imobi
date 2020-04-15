@@ -40,7 +40,7 @@ ext {
     recyclerViewVersion = '1.1.0'
 
     // Navigation
-    navigationVersion = '2.1.0'
+    navigationVersion = '2.2.1'
 
     dependencies = [
             kotlin                : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion",
@@ -60,6 +60,6 @@ ext {
             okHttp                : "com.squareup.okhttp3:logging-interceptor:$okHttpVersion",
             recyclerView          : "androidx.recyclerview:recyclerview:$recyclerViewVersion",
             navigation            : "androidx.navigation:navigation-ui-ktx:$navigationVersion",
-            navigationFrag        : "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+            navigationFrag        : "androidx.navigation:navigation-fragment-ktx:$navigationVersion",
     ]
 }

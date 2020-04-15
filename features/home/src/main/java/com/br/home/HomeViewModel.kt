@@ -1,4 +1,6 @@
 package com.br.home
 
-class HomeViewModel {
+import br.com.rba.common.base.BaseViewModel
+
+class HomeViewModel: BaseViewModel() {
 }
